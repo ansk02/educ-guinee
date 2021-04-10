@@ -113,6 +113,11 @@ body{
 	padding: 10px;	
  }
 
+ body > div > header > div.entete > div.titre > h1{
+ 	text-transform: uppercase;
+ }
+
+
  @media screen and (max-width: 768px)
  {
  	.container{
@@ -163,4 +168,8 @@ body{
 		display: none;
 	}
 
+
+	.titre h1{
+		text-transform: uppercase;
+	}
  }
